@@ -1,0 +1,5 @@
+@import "./cores.css";
+@import "./global.css";
+@import "./tipografia.css";
+@import "./components.css";
+@import "../node_modules/animate.css/animate.css"

@@ -1,0 +1,90 @@
+.font-h1-regular{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 4.063rem;
+    line-height: 116%;
+}
+.font-h1-bold{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 4.063rem;
+    line-height: 116%;
+}
+
+.font-h2-regular{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 3.25rem;
+    line-height: 116%;
+}
+
+.font-h2-bold{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3.25rem;
+    line-height: 116%;
+}
+
+.font-h3-regular{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.563rem;
+    line-height: 116%;
+}
+
+.font-h3-bold{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2.563rem;
+    line-height: 116%;
+}
+
+.font-h4-regular{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.063rem;
+    line-height: 116%;
+}
+
+.font-h4-bold{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2.063rem;
+    line-height: 116%;
+}
+
+.font-h5-regular{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.688rem;
+    line-height: 116%;
+}
+
+.font-h5-bold{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.688rem;
+    line-height: 116%;
+}
+
+.font-p-regular{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.063rem;
+    line-height: 116%;
+}
+
+.font-p-bold{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.063rem;
+    line-height: 116%;
+}
+
+.font-small-regular{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.875rem;
+    line-height: 116%;
+}
+
+.font-small-bold{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 116%;
+}
+

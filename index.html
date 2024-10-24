@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GusDev</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- carroussel swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <button id="btnBackToTop" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up"></i></button>
+    <header>
+        <div class="header-bg">
+            <div class="logo ">
+                <a href="./">
+                    <img src="./img/logo/Logo-1.svg" width="173" height="77" alt="Logo">
+                </a>
+                
+            </div>
+            <input id="toggle" class="toggle" type="checkbox"></input>
+            
+            <label for="toggle" class="hamburger">
+                <div class="top-bun"></div>
+                <div class="meat"></div>
+                <div class="bottom-bun"></div>
+            </label>
+            
+            <nav id="menu" >
+                <ul id="list" class="header-items font-h5-regular ">
+                    <li><a href="#experience">Experiência</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#footer">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <lottie-player src="./img/animate1.json" background="transparent"  speed="1"  style="width: 100%; height: 793px;" loop  autoplay></lottie-player> 
+         
+            <div class="container">
+                <p class="font-h1-bold banner-text capitalized">Gustavo Dias</p>
+                <p class="font-h1-bold banner-text ">Desenvolvedor <br> Front-end & <br>
+                    UX/UI designer</p>
+                <p class="font-p-regular  text-info">Transformando  Ideias  em realidade.</p>
+           </div>
+        </section>
+
+        <section  class="experience ">
+                <h1  id="experience" class="border-box font-h4-bold title1">Experiência</h1>
+            <article  class="experience-1">
+                <div class="box">
+                    <div class="sub-box1 animate__animated animate__backInLeft">
+                        <div class="border-xp ">
+                            <h2 class="font-h5-bold ">Estagiário em Desenvolvimento</h2>
+                        </div>
+            
+                        <p class="border-xp-p font-p-regular ">Suporte na criação e gerenciamento de usuários nos sistemas da Polícia Civil, utilizando webmail, intranet e Active Directory.
+                            Manutenção do sistema de gestão de censo de viaturas com PHP e JavaScript.
+                            Correção de erros e melhorias no site da intranet.</p>
+                            <ul class="skillsbreads font-p-regular">
+                                <li class="breadcrumb">PHP</li>
+                                <li class="breadcrumb">CSS</li>
+                                <li class="breadcrumb">JavaScript</li>
+                                <li class="breadcrumb">Active Directory</li>
+                                <li class="breadcrumb">Windows Server 2003</li>
+                            </ul>
+                            
+                            
+                        <p class="border-xp-p2 font-p-bold ">Tempo de casa: 07/2022 - 06/2023</p>
+            
+                    </div>
+                    <div class="sub-box2 animate__animated animate__backInUp">
+                        <aside>
+                            <h3 class="font-p-bold "> Polícia Civil</h3>
+                            <p class="font-p-bold">Setor Público</p>
+                        </aside>
+                    </div>
+                </div>
+            
+            
+            </article>
+            
+            
+
+            <article class="experience-1 ">
+                <div class="box">
+                    <div class="sub-box1 animate__animated animate__backInLeft">
+                        <div class="border-xp">
+                            <h2 class="font-h5-bold ">Estagiário em Suporte</h2>
+                        </div>
+                        
+                        <p class="border-xp-p font-p-regular">Suporte técnico especializado em software ERP para bares e restaurantes.
+                            Atendimento remoto para instalação e manutenção de software.
+                            Manipulação de bancos de dados e execução de backups.
+                            Identificação e solução de erros de software.</p>
+
+                            <ul class="skillsbreads font-p-regular">
+                                <li class="breadcrumb">Delphi</li>
+                                <li class="breadcrumb">Wordpress</li>
+                                <li class="breadcrumb">Elementor</li>
+                                <li class="breadcrumb">Firebird </li>
+                                <li class="breadcrumb">Banco de dados</li>
+                            </ul>
+                                
+                           
+                        <p class="border-xp-p2 font-p-bold">Tempo de casa: 02/2022 - 07/2022</p>
+                    </div>
+                    <div class="sub-box2">
+                        <aside>
+                            <h3 class="font-p-bold">Tronsoft</h3>
+                            <p class="font-p-bold">Empresa de software ERP
+                            </p>
+                        </aside>
+                    </div>
+                </div>
+            </article>
+
+            <aside></aside>
+        </section>
+
+        
+        <section  class="projects">
+            <h1 id="projects" class="border-box font-h4-bold  ">Projetos</h1>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div >
+                    <figure class="swiper-slide">
+                        <a href=""><img src="./img/projects/example.png" alt="Imagem do projeto 1" ></a>
+                        <figcaption class="title-project">
+                          <h5 class="font-h5-bold">Titulo</h5>
+                          <p class="font-p-regular">Breve descrição do projeto , orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                        </figcaption>
+                      </figure>
+                  </div>
+                  <div class="swiper-slide">
+                    <figure>
+                        <a href=""><img src="./img/projects/example.png" alt="Imagem do projeto 1" ></a>
+                        <figcaption class="title-project">
+                          <h5 class="font-h5-bold">Titulo</h5>
+                          <p class="font-p-regular">Breve descrição do projeto , orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                        </figcaption>
+                      </figure>
+                  </div>
+                  <div class="swiper-slide">
+                    <figure>
+                        <a href=""><img src="./img/projects/example.png" alt="Imagem do projeto 1" ></a>
+                        <figcaption class="title-project">
+                          <h5 class="font-h5-bold">Titulo</h5>
+                          <p class="font-p-regular">Breve descrição do projeto , orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                        </figcaption>
+                      </figure>
+                  </div>
+                  <div class="swiper-slide">
+                    <figure>
+                        <a href=""><img src="./img/projects/example.png" alt="Imagem do projeto 1" ></a>
+                        <figcaption class="title-project">
+                          <h5 class="font-h5-bold">Titulo</h5>
+                          <p class="font-p-regular">Breve descrição do projeto , orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                        </figcaption>
+                      </figure>
+                  </div>
+                  <div class="swiper-slide">
+                    <figure>
+                        <a href=""><img src="./img/projects/example.png" alt="Imagem do projeto 1" ></a>
+                        <figcaption class="title-project">
+                          <h5 class="font-h5-bold">Titulo</h5>
+                          <p class="font-p-regular">Breve descrição do projeto , orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                        </figcaption>
+                      </figure>
+                  </div>
+                </div>
+                
+              </div>
+            <div>
+                
+            </div>
+        </section>
+
+        <section  class="skills ">
+            <h1 id="skills" class="border-box font-h4-bold title-3">Habilidades</h1>
+
+            <p class="font-p-regular">Possuo habilidades sólidas em HTML e CSS para criar páginas web estruturadas e responsivas. Tenho experiência em JavaScript e React, permitindo-me desenvolver interfaces dinâmicas e modernas. Tenho conhecimento intermediário em Python e familiaridade com a plataforma .NET para construir aplicações robustas. Utilizo Figma para design de interfaces e GitHub para controle de versão e colaboração. Além disso, domino Sass para CSS eficiente, TypeScript para tipagem estática em JavaScript e Next.js para desenvolvimento de aplicações React otimizadas e SEO-friendly.</p>
+            <section id="boxes" class="flexible-grid" >
+                <div  class="box-container-skills ">
+                    <img class="box-skills " src="./img/icons/react.png" alt="Logo do react">
+                    <img  class="box-skills" src="./img/icons/nextjs.png" alt="Logo do nextJS">
+                    <img class="box-skills" src="./img/icons/tailwind.png" alt="Logo do Tailwind">
+                </div>
+                <div class="box-container-skills">
+                    <img class="box-skills" src="./img/icons/javascript.png" alt="Logo do JavaScript">
+                    <img class="box-skills" src="./img/icons/sass.png" alt="">
+                    <img class="box-skills" src="./img/icons/typescriptreal.png" alt="Logo do Typescript">
+                </div>
+            </section>
+             
+        </section>
+    </main>
+
+    
+    <footer id="footer" class="footer">
+        <section class="calltoaction">
+            <p class="font-h3-bold">Entre em contato comigo agora mesmo!</p>
+            <button class="btn font-h5-regular">Confirmar</button>
+        </section>
+        <a href="linkedin.com/in/gustavo-dias-497a3b227/"><img src="./img/icons/mdi_linkedin.svg" alt="Logo linkedin"></a>
+        <a href="https://github.com/GustavoDiasC"><img src="./img/icons/jam_github.svg" alt="Logo github"></a>
+        <a href=""><img src="./img/icons/devicon-plain_behance.svg" alt="Logo behance"></a>
+        <p class="font-h5-bold">Desenvolvido por Gust<span>4</span>v<span>0</span>Di<span>4</span>sC</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            spaceBetween: 48,
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            
+          });
+
+          
+    </script>
+</body>
+</html>
