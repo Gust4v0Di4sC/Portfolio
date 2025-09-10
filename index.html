@@ -3,25 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GusDev</title>
+    <meta name="description"
+    content="Portfólio profissional de Gustavo Dias Charra, especialista em FrontEnd. Confira meus projetos em React, Angular e VUE.">
+    <meta name="keywords" content="portfolio, design, desenvolvimento web, UX, UI, Front-end, mobile-first">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="Portfólio de Gustavo Dias Charra">
+    <meta property="og:description" content="Confira meus trabalhos em Desenvolvimento Web, Front-End">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://seusite.com">
+    <meta property="og:image" content="https://seusite.com/imagens/thumbnail.jpg">
+    <meta property="og:site_name" content="Gustavo Dias Charra - Portfólio">
+  
+ 
+    <title>GusDev | Desenvolvedor Web</title>
+    <link rel="icon" href="/favicon.svg" width="32" height="32" type="image+svg/xml">
+    <link rel="canonical" href="https://seusite.com" />
+
     <!-- css -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preload" href="/css/style.css" as="style">
+    <link rel="stylesheet" href="/css/style.css">
+
     <!-- carroussel swiper -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <button id="btnBackToTop" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up"></i></button>
     <header>
         <div class="header-bg">
             <div class="logo ">
-                <a href="./">
-                    <img src="./img/logo/Logo-1.svg" width="173" height="77" alt="Logo">
+                <a href="/">
+                    <img src="/img/logo/Logo-1.svg" width="173" height="77" alt="Logo">
                 </a>
                 
             </div>
@@ -46,7 +65,7 @@
 
     <main>
         <section class="banner">
-            <lottie-player src="./img/animate1.json" background="transparent"  speed="1"  style="width: 100%; height: 793px;" loop  autoplay></lottie-player> 
+            <lottie-player src="/img/animate1.json" background="transparent"  speed="1"  style="width: 100%; height: 793px;" loop  autoplay></lottie-player> 
          
             <div class="container">
                 <p class="font-h1-bold banner-text capitalized">Gustavo Dias</p>
@@ -135,7 +154,7 @@
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <figure >
-                        <a href="https://coffee-craft.netlify.app"><img src="img/projects/imagePreviewCoffeeCraft.png" alt="Imagem do projeto 1" ></a>
+                        <a href="https://coffee-craft.netlify.app"><img src="/img/projects/imagePreviewCoffeeCraft.png" alt="Imagem do projeto 1" ></a>
                         <figcaption class="title-project">
                           <h5 class="font-h5-bold">Coffee Craft</h5>
                           <p class="font-p-regular">Projeto feito para um produtor de café artesanal exibir seus produtos e oferecer um serviço de assinatura personalizado aos seus clientes, utlizando apenas html,css e js</p>
@@ -144,40 +163,32 @@
                   </div>
                   <div class="swiper-slide">
                     <figure>
-                        <a href=""><img src="img/projects/example.png" ></a>
+                        <a href=""><img src="/img/projects/imagePreviewInfoShop.png" alt="Imagem do projeto 2"></a>
                         <figcaption class="title-project">
-                          <h5 class="font-h5-bold">Titulo</h5>
-                          <p class="font-p-regular">Breve descrição do projeto , orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                          <h5 class="font-h5-bold">InfoShop</h5>
+                          <p class="font-p-regular">Projeto feito para simular um site para venda de artigos eletronicos com foco em informática.</p>
                         </figcaption>
                       </figure>
                   </div>
                   <div class="swiper-slide">
                     <figure>
-                        <a href=""><img src="./img/projects/example.png" alt="Imagem do projeto 1" ></a>
+                        <a href=""><img src="/img/projects/imagePreviewRandomGallery.png" alt="Imagem do projeto 3" ></a>
                         <figcaption class="title-project">
-                          <h5 class="font-h5-bold">Titulo</h5>
-                          <p class="font-p-regular">Breve descrição do projeto , orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                          <h5 class="font-h5-bold">Random Gallery</h5>
+                          <p class="font-p-regular">Projeto que consome uma api de imagens a sereme exibidas em uma galeria aleatoria com recursos de categoria por aproximação do tema da imagem</p>
                         </figcaption>
                       </figure>
                   </div>
                   <div class="swiper-slide">
                     <figure>
-                        <a href=""><img src="./img/projects/example.png" alt="Imagem do projeto 1" ></a>
+                        <a href=""><img src="/img/projects/imagePreviewPetCorner.png" alt="Imagem do projeto 4" ></a>
                         <figcaption class="title-project">
                           <h5 class="font-h5-bold">Titulo</h5>
                           <p class="font-p-regular">Breve descrição do projeto , orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
                         </figcaption>
                       </figure>
                   </div>
-                  <div class="swiper-slide">
-                    <figure>
-                        <a href=""><img src="./img/projects/example.png" alt="Imagem do projeto 1" ></a>
-                        <figcaption class="title-project">
-                          <h5 class="font-h5-bold">Titulo</h5>
-                          <p class="font-p-regular">Breve descrição do projeto , orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-                        </figcaption>
-                      </figure>
-                  </div>
+
                 </div>
                 
               </div>
@@ -192,14 +203,33 @@
             <p class="font-p-regular">Possuo habilidades sólidas em HTML e CSS para criar páginas web estruturadas e responsivas. Tenho experiência em JavaScript e React, permitindo-me desenvolver interfaces dinâmicas e modernas. Tenho conhecimento intermediário em Python e familiaridade com a plataforma .NET para construir aplicações robustas. Utilizo Figma para design de interfaces e GitHub para controle de versão e colaboração. Além disso, domino Sass para CSS eficiente, TypeScript para tipagem estática em JavaScript e Next.js para desenvolvimento de aplicações React otimizadas e SEO-friendly.</p>
             <section id="boxes" class="flexible-grid" >
                 <div  class="box-container-skills ">
-                    <img class="box-skills " src="./img/icons/react.png" alt="Logo do react">
-                    <img  class="box-skills" src="./img/icons/nextjs.png" alt="Logo do nextJS">
-                    <img class="box-skills" src="./img/icons/tailwind.png" alt="Logo do Tailwind">
+                    <img class="box-skills " src="/img/icons/react.png" alt="Logo do react">
+                    <img  class="box-skills" src="/img/icons/nextjs.png" alt="Logo do nextJS">
+                    <img class="box-skills" src="/img/icons/tailwind.png" alt="Logo do Tailwind">
                 </div>
                 <div class="box-container-skills">
-                    <img class="box-skills" src="./img/icons/javascript.png" alt="Logo do JavaScript">
-                    <img class="box-skills" src="./img/icons/sass.png" alt="">
-                    <img class="box-skills" src="./img/icons/typescriptreal.png" alt="Logo do Typescript">
+                    <img class="box-skills" src="/img/icons/javascript.png" alt="Logo do JavaScript">
+                    <img class="box-skills" src="/img/icons/sass.png" alt="">
+                    <img class="box-skills" src="/img/icons/typescriptreal.png" alt="Logo do Typescript">
+                </div>
+            </section>
+             
+        </section>
+
+        <section  class="certifications ">
+            <h1 id="certifications" class="border-box font-h4-bold title-3">Cursos e Certificações</h1>
+
+            <p class="font-p-regular">Tenho formação em diversas áreas da tecnologia e design digital. Concluí o curso de UX Design do Google, onde aprendi a criar experiências centradas no usuário com foco em usabilidade e acessibilidade. Também participei do programa de Desenvolvimento Frontend da Meta, adquirindo conhecimentos práticos em HTML, CSS, JavaScript e frameworks modernos. Além disso, finalizei o curso IT Essentials, que me proporcionou uma base sólida em hardware, redes e sistemas operacionais. Para complementar, estudei JavaScript, aprofundando-me na lógica de programação e interatividade para web. Esses cursos me deram uma visão ampla e integrada do desenvolvimento de produtos digitais.</p>
+            <section id="boxes" class="flexible-grid" >
+                <div  class="box-container-certifications ">
+                    <a href="https://www.credly.com/badges/c5fb9e96-cdea-4606-a195-149448953438/public_url"><img class="box-certifications" src="/img/certifications/meta-front-end-developer-certificate.png" alt="Logo da MetaFrontEnd"></a>
+                    <a href="https://www.credly.com/badges/e7e62c73-66de-471c-9e72-e58a8d43c518/public_url"><img class="box-certifications" src="/img/certifications/networking-basics.png" alt="Logo do NetworkBasics"></a>
+                    <a href="https://www.credly.com/badges/57ae4b39-d1fe-4a19-85e9-04ef56c3d6e3/public_url"><img class="box-certifications" src="/img/certifications/javascript-essentials-1.png"alt="Logo do JavascriptEssentials"></a>
+                </div>
+                <div class="box-container-certifications">
+                    <a href="https://www.credly.com/badges/cf0a94e8-e30a-449a-9500-b99f745b0334/public_url"><img class="box-certifications" src="/img/certifications/redhatbadge.png" alt="Logo do RedHat"></a>
+                    <a href="https://www.credly.com/badges/2c1c90e6-ee88-4e92-aada-4dfc6957b049/public_url"><img class="box-certifications" src="/img/certifications/it-essentials.png" alt="Logo do ItEssentials"></a>
+                    <a href="https://www.credly.com/badges/c3e27c0c-729f-4156-9621-e0bd61b9558c/public_url"><img class="box-certifications" src="/img/certifications/google-ux-design-professional-certificate.2.png" alt="Logo do GoogleUX"></a>
                 </div>
             </section>
              
@@ -212,13 +242,13 @@
             <p class="font-h3-bold">Entre em contato comigo agora mesmo!</p>
             <button class="btn font-h5-regular">Confirmar</button>
         </section>
-        <a href="linkedin.com/in/gustavo-dias-497a3b227/"><img src="./img/icons/mdi_linkedin.svg" alt="Logo linkedin"></a>
-        <a href="https://github.com/GustavoDiasC"><img src="./img/icons/jam_github.svg" alt="Logo github"></a>
-        <a href=""><img src="./img/icons/devicon-plain_behance.svg" alt="Logo behance"></a>
+        <a href="linkedin.com/in/gustavo-dias-497a3b227/"><img src="/img/icons/mdi_linkedin.svg" alt="Logo linkedin"></a>
+        <a href="https://github.com/Gust4v0Di4sC"><img src="/img/icons/jam_github.svg" alt="Logo github"></a>
+        <a href=""><img src="/img/icons/devicon-plain_behance.svg" alt="Logo behance"></a>
         <p class="font-h5-bold">Desenvolvido por Gust<span>4</span>v<span>0</span>Di<span>4</span>sC</p>
     </footer>
 
-    <script src="./js/script.js"></script>
+    <script src="/js/script.min.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     

@@ -124,6 +124,39 @@
     justify-content: center;
 }
 
+.certifications{
+    background-color: var(--gray--1);
+    width: 826px;
+    height: 1043px;
+    margin: 0 auto;
+    margin-top: 320px;
+    margin-bottom: 439px;
+}
+
+
+.certifications>p{
+    color: var(--light-p);
+    padding: 64px 74px 64px 74px;
+}
+
+.box-certifications{
+    width: 203px;
+    height: 188px;
+    background-color: var(--primary-p);
+    border-radius: 24px;
+    padding: 60px 58px 60px 58px;
+}
+
+
+
+.box-container-certifications{
+    display: flex;
+    flex-direction: row;
+    gap: 78px;
+    margin-bottom: 68px;
+    justify-content: center;
+}
+
 .projects{
     background-color: var(--gray-1);
     width: 950px;
