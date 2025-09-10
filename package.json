@@ -1,10 +1,11 @@
 {
   "scripts": {
-  "build": "node build.js",
-  "clean": "rm -rf dist"
-},
+    "build": "node build.js",
+    "clean": "rm -rf dist"
+  },
   "dependencies": {
     "animate.css": "^4.1.1",
+    "clean-css": "^5.3.3",
     "swiper": "^11.1.1"
   },
   "devDependencies": {
