@@ -5,7 +5,7 @@ const copyFile = promisify(fs.copyFile);
 const mkdir = promisify(fs.mkdir);
 
 // Extensões permitidas
-const ALLOWED_EXTENSIONS = new Set(['.html', '.css', '.js', '.png', '.jpg', '.jpeg', '.svg', '.gif', '.webp']);
+const ALLOWED_EXTENSIONS = new Set(['.html', '.css', '.js', '.png', '.jpg', '.jpeg', '.svg', '.gif', '.webp', '.json']);
 
 async function copyAssets(src, dest) {
   await mkdir(dest, { recursive: true });

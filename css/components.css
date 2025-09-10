@@ -463,8 +463,19 @@
     .box-skills{
         margin-bottom: 32px;
     }
+
+    .box-container-certifications {
+        flex-wrap: wrap;
+    }
+
+    .box-certifications{
+        width: 100px;
+        height: 85px;
+    }
+
     .flexible-grid{
         display: grid;
+        flex-wrap: wrap;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 2fr;
         column-gap: 32px;
@@ -472,6 +483,14 @@
     }
     .calltoaction{
         width: 80%;
+    }
+
+    .calltoaction p {
+        font-size: 1.60rem;
+    }
+
+    .calltoaction button{
+        font-size: 1.60rem;
     }
 }
 
